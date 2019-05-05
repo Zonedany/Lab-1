@@ -66,7 +66,7 @@ void ImprimirListaNumeros(lista *Lista){
 
     if(aux->tamano != 0){
       for (i = 0; i < aux->tamano; i++) {
-        printf("\n%i",aux->arreglo[i]);
+       // printf("\n %i",aux->arreglo[i]);
       }
     }
 }
