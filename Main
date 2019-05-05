@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include "estructura.h"
+
+int main(){
+
+	lista *Lista =CreaListaNumerosVacia();
+
+	CreaListaNumerosLlena(Lista);
+
+	ImprimirListaNumeros(Lista);
+
+	BuscaNumerosEnListaNumeros(Lista,5);
+	
+	//EliminaListaNumeros(Lista);
+       //ImprimirListaNumeros(Lista);
+
+  return 0;
+}
